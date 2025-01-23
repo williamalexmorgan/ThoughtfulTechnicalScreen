@@ -1,7 +1,7 @@
 def sort(width, height, length, mass):
     
     # Calculate if the package is bulky (while using the ternary operator as the instructions specified)
-    isBulky = True if ((width * height * length) >= 1_000_000 | max(width, height, length) >= 150) else False
+    isBulky = True if ((width * height * length) >= 1000000 | max(width, height, length) >= 150) else False
 
     # Calculate if the package is heavy
     isHeavy = (mass >= 20)
